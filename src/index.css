@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000; 
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.theme-switcher label {
+  margin-right: 10px;
+}
+
+.theme-switcher input {
+  margin-right: 5px;
+}
+
+.theme-switcher span {
+  font-weight: bold;
+}
